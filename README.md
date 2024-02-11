@@ -12,3 +12,4 @@ Unfortunately, the process is not streamlined. After running the openFOAM simula
 5. Only then you can use OF_BFS_v920b4.m to compute the quantities. the code is commented to describe what every variable means. The error indicators are named An_* (for the A(n) from Computers & Fluid 2017), AnSF_* (for the A'(n) from Computers & Fluid 2017), and Gn* (for different versions of G(x,n) from Computers & Fluid 2020 including Smagorinsky, Vreman, and without SGS models).
 6. Once the error indicators are camputed you can find the refinement fields by solving the problem indicator*volume=const. where the const. value is found to give a certain number of cells.
 7. There are additional MATLAB scripts to do that, such as twoGridAdaptationProblem_v270b1.m (not here yet).
+8. Those refinement regions should then be entered as refineMeshDict for the OpenFOAM's refineMesh tool, which then generates the final adapted mesh
