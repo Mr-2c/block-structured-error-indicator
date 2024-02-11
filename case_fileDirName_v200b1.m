@@ -1285,12 +1285,12 @@ elseif strcmpi(which_case,'hybridWMLES200k')
     
     
     if which_grid==10^12
-        case_dirName            = '/Users/siavashtoosi/Documents/MATLAB/WMLES_Re200k_Lx13Lz5/Nx52_Ny32_Nz20' ;
+        case_dirName            = '~/Documents/MATLAB/WMLES_Re200k_Lx13Lz5/Nx52_Ny32_Nz20' ;
         case_filenames          = 'WMLES_Re200k_Lx13Lz5_Nx52_Ny32_Nz20' ;
         numVars                 = 6 ;
         dt                      = 2.0 ;
     elseif which_grid==10^12+1
-        case_dirName            = '/Users/siavashtoosi/Documents/MATLAB/WMLES_Re200k_Lx13Lz5/Nx104_Ny16_Nz40' ;
+        case_dirName            = '~/Documents/MATLAB/WMLES_Re200k_Lx13Lz5/Nx104_Ny16_Nz40' ;
         case_filenames          = 'WMLES_Re200k_Lx13Lz5_Nx104_Ny16_Nz40' ;
         numVars                 = 6 ;
         dt                      = 5.0 ;
@@ -1301,7 +1301,7 @@ elseif strcmpi(which_case,'hybridWMLES200k')
     
 elseif strcmpi(which_case,'hybridDNS')
     if which_grid==395
-        case_dirName            = '/Users/siavashtoosi/Documents/MATLAB/DNS-LES Channel/NewEra/DNS_reTau395' ;
+        case_dirName            = '~/Documents/MATLAB/DNS-LES Channel/NewEra/DNS_reTau395' ;
         case_filenames          = 'dns_retau395' ;
         numVars                 = 5 ;
         dt                      = 1.0 ;
@@ -1336,12 +1336,12 @@ elseif strcmpi(which_case,'hybridLES')
     
 elseif strcmpi(which_case,'hybridLES20000')
     if which_grid==20000+40*8*12
-        case_dirName           = '/Users/siavashtoosi/Desktop/channel/Re20000M04/Re20000_M8_LES1b' ;
+        case_dirName           = '~/Desktop/channel/Re20000M04/Re20000_M8_LES1b' ;
         case_filenames          = 'Re20000_M04_LES1b_40x8x12' ;
         numVars                 = 5 ;
         dt                      = 1.5 ;
     elseif which_grid==20000+50*10*15
-        case_dirName           = '/Users/siavashtoosi/Desktop/channel/Re20000M04/Re20000_M8_LES1f' ;
+        case_dirName           = '~/Desktop/channel/Re20000M04/Re20000_M8_LES1f' ;
         case_filenames          = 'Re20000_M04_LES1b_50x10x15' ;
         numVars                 = 5 ;
         dt                      = 1.5 ;
@@ -1379,58 +1379,58 @@ elseif strcmpi(which_case,'hybridLES20000')
         
     
     elseif which_grid==20000+120*58*84
-        case_dirName           = '/Users/siavashtoosi/Documents/MATLAB/DNS-LES Channel/anEvenNewerEra/LES_Re20000_120x58x84/' ;
+        case_dirName           = '~/Documents/MATLAB/DNS-LES Channel/anEvenNewerEra/LES_Re20000_120x58x84/' ;
         case_filenames          = 'LES_Re20000_120x58x84' ;
         numVars                 = 5 ;
         dt                      = 1.0 ;
     elseif which_grid==20000+38*26*18+2
-        case_dirName           = '/Users/siavashtoosi/Documents/MATLAB/DNS-LES Channel/anEvenNewerEra/An_LES_Re20000_38x26x18_flucSmag_2nd/' ;
+        case_dirName           = '~/Documents/MATLAB/DNS-LES Channel/anEvenNewerEra/An_LES_Re20000_38x26x18_flucSmag_2nd/' ;
         case_filenames          = 'LES_Re20000_38x26x18' ;
         numVars                 = 5 ;
         dt                      = 1.0 ;
     elseif which_grid==20000+38*26*18+6
-        case_dirName           = '/Users/siavashtoosi/Documents/MATLAB/DNS-LES Channel/anEvenNewerEra/An_LES_Re20000_38x26x18_flucSmag_6th/' ;
+        case_dirName           = '~/Documents/MATLAB/DNS-LES Channel/anEvenNewerEra/An_LES_Re20000_38x26x18_flucSmag_6th/' ;
         case_filenames          = 'LES_Re20000_38x26x18' ;
         numVars                 = 5 ;
         dt                      = 1.0 ;
     elseif which_grid==20000+75*38*42
-        case_dirName           = '/Users/siavashtoosi/Documents/MATLAB/DNS-LES Channel/anEvenNewerEra/An_LES_Re20000_75x38x42/' ;
+        case_dirName           = '~/Documents/MATLAB/DNS-LES Channel/anEvenNewerEra/An_LES_Re20000_75x38x42/' ;
         case_filenames          = 'LES_Re20000_75x38x42' ;
         numVars                 = 5 ;
         dt                      = 1.0 ;
     elseif which_grid==20000+75*38*42+2
-        case_dirName           = '/Users/siavashtoosi/Documents/MATLAB/DNS-LES Channel/anEvenNewerEra/An_LES_Re20000_75x38x42_flucSmag_2nd/' ;
+        case_dirName           = '~/Documents/MATLAB/DNS-LES Channel/anEvenNewerEra/An_LES_Re20000_75x38x42_flucSmag_2nd/' ;
         case_filenames          = 'LES_Re20000_75x38x42' ;
         numVars                 = 5 ;
         dt                      = 0.01 ;
     elseif which_grid==20000+75*38*42+6
-        case_dirName           = '/Users/siavashtoosi/Documents/MATLAB/DNS-LES Channel/anEvenNewerEra/An_LES_Re20000_75x38x42_flucSmag_6th/' ;
+        case_dirName           = '~/Documents/MATLAB/DNS-LES Channel/anEvenNewerEra/An_LES_Re20000_75x38x42_flucSmag_6th/' ;
         case_filenames          = 'LES_Re20000_75x38x42' ;
         numVars                 = 5 ;
         dt                      = 0.01 ;
     elseif which_grid==20000+112*48*100
-        case_dirName           = '/Users/siavashtoosi/Documents/MATLAB/DNS-LES Channel/anEvenNewerEra/An_LES_Re20000_112x48x100/' ;
+        case_dirName           = '~/Documents/MATLAB/DNS-LES Channel/anEvenNewerEra/An_LES_Re20000_112x48x100/' ;
         case_filenames          = 'LES_Re20000_112x48x100' ;
         numVars                 = 5 ;
         dt                      = 1.0 ;
     elseif which_grid==20000+112*48*100+2
-        case_dirName           = '/Users/siavashtoosi/Documents/MATLAB/DNS-LES Channel/anEvenNewerEra/An_LES_Re20000_112x48x100_flucSmag_2nd/' ;
+        case_dirName           = '~/Documents/MATLAB/DNS-LES Channel/anEvenNewerEra/An_LES_Re20000_112x48x100_flucSmag_2nd/' ;
         case_filenames          = 'LES_Re20000_112x48x100' ;
         numVars                 = 5 ;
         dt                      = 1.0 ;
     elseif which_grid==20000+112*48*100+6
-        case_dirName           = '/Users/siavashtoosi/Documents/MATLAB/DNS-LES Channel/anEvenNewerEra/An_LES_Re20000_112x48x100_flucSmag_6th/' ;
+        case_dirName           = '~/Documents/MATLAB/DNS-LES Channel/anEvenNewerEra/An_LES_Re20000_112x48x100_flucSmag_6th/' ;
         case_filenames          = 'LES_Re20000_112x48x100' ;
         numVars                 = 5 ;
         dt                      = 1.0 ;
         
     elseif which_grid==30000+96*60*96+2
-        case_dirName           = '/Users/siavashtoosi/Documents/MATLAB/DNS-LES Channel/anEvenNewerEra/CAF_LES_Re30000_96x60x96_flucSmag_2nd/' ;
+        case_dirName           = '~/Documents/MATLAB/DNS-LES Channel/anEvenNewerEra/CAF_LES_Re30000_96x60x96_flucSmag_2nd/' ;
         case_filenames          = 'LES_Re30000_96x60x96' ;
         numVars                 = 5 ;
         dt                      = 1.0 ;
     elseif which_grid==30000+96*60*96+6
-        case_dirName           = '/Users/siavashtoosi/Documents/MATLAB/DNS-LES Channel/anEvenNewerEra/CAF_LES_Re30000_96x60x96_flucSmag_6th/' ;
+        case_dirName           = '~/Documents/MATLAB/DNS-LES Channel/anEvenNewerEra/CAF_LES_Re30000_96x60x96_flucSmag_6th/' ;
         case_filenames          = 'LES_Re30000_96x60x96' ;
         numVars                 = 5 ;
         dt                      = 1.0 ;
