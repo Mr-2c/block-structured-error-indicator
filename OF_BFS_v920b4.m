@@ -156,7 +156,7 @@ same_folder     = 'no' ;                % whether the files are in the same fold
 
 %% adding paths to some directories contatining additional scripts
 if strcmpi( run_on_cluster , 'no' )
-    addpath('/Users/siavashtoosi/Documents/MATLAB/OpenFOAM/MainRequiredScripts_v900','-end')
+    addpath('~/Documents/MATLAB/OpenFOAM/MainRequiredScripts_v900','-end')
 else
     addpath('~/supportingScripts_MATLAB')
 end
